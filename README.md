@@ -14,7 +14,7 @@ pip install anytree
 
 The code parses the contents of the yaml file as a dictionary.
 
-**Alert:** The first item in the yaml file has to be `ros__parameters:` for the code to work.
+**Alert:** ⚠️ The first item in the yaml file has to be `ros__parameters:` for the code to work.
 
 
 The first item in the yaml file is parsed as an object, not as a dictionary by default when using the `anytree` importer. I solved it by forcing the user to use `ros__parameters:` as the first variable and then ignoring it.
